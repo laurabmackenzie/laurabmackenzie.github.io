@@ -1,0 +1,105 @@
+.navbar {
+  background:#2c3e50;
+  padding: 20px;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #ecf0f1;
+  font-size:1.3em;
+}
+.navbar-inverse .navbar-nav li a:hover {
+  color: #d35400;
+}
+.navbar .navbar-brand {
+  color: #ecf0f1;
+  font-size:2.2em;
+  font-weight:600;
+}
+
+span.downarrow {
+  width:100%;
+  text-align: center;
+  font-size:35px;
+  padding-bottom:20px;
+  color:#d35400;
+}
+
+body {
+  padding-top: 150px;  
+  background-color:#FAFAFA;
+}
+.container {
+  padding-bottom: 25px;
+  margin-left:0px;
+  margin-right:0px;
+  border-color:#d35400;
+}
+h1 {
+  text-align:center;
+  font-size:2em;
+  font-weight:300;
+  color:#2c3e50;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.hero img {
+  margin: auto;
+  width: 200px;
+  border-radius: 100px;
+}
+div#spacer {
+  padding:30px;
+}
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 300px;               
+  background-color:#d35400;
+  height: 1.5px;
+}
+p {
+  font-size:20px;
+  text-align:left;
+}
+div#description {
+  border-left:solid #d35400; 
+  border-left-width:1.7px;
+  margin:30px;
+}
+#websites p, #writing p, #contact p {
+  font-size:2em;
+  text-align:center;
+  margin: 30px;
+  color:#2c3e50;
+  margin-bottom:0px;
+}
+#websites hr, #contact hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width:  1000px;               
+  background-color:#bdc3c7;
+  height: 1.0px;
+}
+a img {
+  max-height:50px
+}
+a.thumbnail:hover {
+  transform: rotate(3deg);
+  transition: 0.5s transform;
+  border-color:#d35400;
+}
+#sites {
+  padding-right: 120px;
+  padding-left: 120px;
+}
+#websites p, #writing p {
+  padding-top: 30px;
+}
+div#contact {
+  padding-top: 50px;
+}
+#contact p {
+  margin-top: 0;
+  font-size: 1.7em;
+}
