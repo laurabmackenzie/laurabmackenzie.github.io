@@ -122,9 +122,16 @@ a.thumbnail:hover {
 
 div#contact {
   padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 #contact p {
   margin-top: 0;
   font-size: 1.7em;
+}
+#contact a {
+  color:#d35400;
+}
+#contact a:hover {
+  color:#2c3e50;
 }
