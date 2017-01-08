@@ -105,7 +105,7 @@ a img {
 }
 
 a.thumbnail:hover {
-  transform: rotate(3deg);
+  transform: rotate(1deg);
   transition: 0.5s transform;
   border-color: #d35400;
 }
