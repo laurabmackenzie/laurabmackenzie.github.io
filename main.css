@@ -4,19 +4,19 @@
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #2c3e50;
+  color: #00303F;
   font-size: 1.3em;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-  color: #d35400;
+  color: #dcae1d;
 }
 .navbar .navbar-brand:hover {
-  color:#d35400;
+  color:#dcae1d;
 }
 
 .navbar .navbar-brand {
-  color: #ecf0f1;
+  color: #00303F;
   font-size: 2.2em;
   font-weight: 600;
 }
@@ -26,26 +26,26 @@ span.downarrow {
   text-align: center;
   font-size: 35px;
   padding-bottom: 20px;
-  color: #d35400;
+  color: #dcae1d;
 }
 
 body {
   padding-top: 150px;
-  background-color: #FAFAFA;
+  background-color: #ffffff;
 }
 
 .container {
   padding-bottom: 25px;
   margin-left: 0px;
   margin-right: 0px;
-  border-color: #d35400;
+  border-color: #dcae1d;
 }
 
 h1 {
   text-align: center;
   font-size: 2em;
   font-weight: 300;
-  color: #2c3e50;
+  color: #00303F;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -65,7 +65,7 @@ hr {
   clear: both;
   display: block;
   width: 300px;
-  background-color: #d35400;
+  background-color: #dcae1d;
   height: 1.5px;
 }
 
@@ -75,7 +75,7 @@ p {
 }
 
 div#description {
-  border-left: solid #d35400;
+  border-left: solid #dcae1d;
   border-left-width: 1.7px;
   margin: 30px;
 }
@@ -86,7 +86,7 @@ div#description {
   font-size: 2em;
   text-align: center;
   margin: 30px;
-  color: #2c3e50;
+  color: #00303F;
   margin-bottom: 0px;
 }
 
@@ -96,7 +96,7 @@ div#description {
   clear: both;
   display: block;
   width: 80%;
-  background-color: #bdc3c7;
+  background-color: #ffffff;
   height: 1.0px;
 }
 
@@ -107,7 +107,7 @@ a img {
 a.thumbnail:hover {
   transform: rotate(1deg);
   transition: 0.5s transform;
-  border-color: #d35400;
+  border-color #dcae1d;
 }
 
 #sites {
@@ -130,8 +130,8 @@ div#contact {
   font-size: 1.7em;
 }
 #contact a {
-  color:#d35400;
+  color: #dcae1d;
 }
 #contact a:hover {
-  color:#2c3e50;
+  color:#00303F;
 }
