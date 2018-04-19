@@ -78,12 +78,6 @@ p {
   text-align: left;
 }
 
-div#description {
-  border-left: solid #dcae1d;
-  border-left-width: 1.7px;
-  margin: 30px;
-}
-
 #websites p,
 #writing p,
 #contact p {
