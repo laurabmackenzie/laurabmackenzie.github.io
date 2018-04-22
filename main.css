@@ -1,0 +1,146 @@
+body {
+    color: #28170D;
+    position: relative;
+}
+ul {
+    padding-left: 0;
+}
+.hero .lead {
+    font-size: 200%;
+}
+.content {
+    margin-top: 56px;
+}
+h2 {
+    font-weight: 300;
+} 
+
+.hero {
+    background-image: url('photos/backgroundcropped.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.hero ul li {
+    display:inline;
+}
+
+.hero ul li::after {
+    content: " | ";
+}
+
+.hero ul li:last-child::after {
+    content: "";
+}
+
+.hero .fa-arrow-circle-down {
+    font-size: 250%;
+    padding-top: 50px;
+}
+#feature {
+    padding: 5% 10% 5% 10%;
+    margin-bottom: 0;
+}
+
+.row.feature {
+    padding: 0% 12% 0% 12%;
+    align-items: center;
+}
+a .fa-arrow-circle-down {
+    color:#ffffff;
+}
+a .fa-arrow-circle-down:hover {
+    color: #E9B000;
+}
+.subsection {
+    padding: 3% 10% 0 10%;
+}
+.subsection .lead {
+    font-size:2rem;
+}
+.project {
+    padding: 0 4% 5% 4%;
+}
+
+.project a:hover, .project a:focus, .project a:visited, .project a:active {
+    border: #E9B000 2px solid;
+}
+.writing a:hover, .project a:focus, .project a:visited, .project a:active {
+    border: #E9B000 2px solid;
+}
+.article {
+    padding: 0 4% 5% 4%;
+}
+hr {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.testimonial1 {
+    padding-right: 3%;
+}
+.testimonial2 {
+    padding-left: 3%;
+}
+.testimonialimage {
+    padding: 0 10% 3% 10%;
+}
+.testimonialtext {
+    font-style: italic;
+}
+.contactme {
+    padding: 1% 15% 7% 15%;
+}
+a {
+    color: #00688B;
+}
+.contactheading {
+    padding-top: 0;
+}
+.icon {
+    font-size: 250%;
+    color: #00688B;
+    margin-bottom: 0px;
+}
+.panel-footer ul {
+	list-style-type: none;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 3%;
+}
+.panel-footer li {
+    color: #ffffff;
+	display: inline;
+}
+.panel-footer a {
+    color: #ffffff;
+	text-decoration: none;
+}
+a:hover {
+	color: #E9B000;
+}
+.panel-footer {
+	background-image: url("photos/footerbackgroundcropped.jpg");
+	min-height: 250px;
+	color: #ffffff;
+}
+.panel-footer nav ul li::after {
+    content: " | ";
+}
+
+.panel-footer nav ul li:last-child::after {
+    content: "";
+}
+.panel-footer ul {
+    padding: 3% 0 0 0;
+}
+#socialmedia {
+    padding: 0;
+}
+#socialmedia a {
+    padding: 0 1% 0 1%;
+}
+.modalbutton {
+background-color: #00688B;
+border-color: #00688B;
+}
