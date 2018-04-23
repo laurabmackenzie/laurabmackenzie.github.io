@@ -16,7 +16,7 @@ h2 {
 } 
 
 .hero {
-    background-image: url('photos/backgroundcropped.jpg');
+    background-image: url('photos/HeaderPhotoCropped.jpg');
     background-position: center;
     background-size: cover;
     color: white;
@@ -25,15 +25,6 @@ h2 {
 .hero ul li {
     display:inline;
 }
-
-.hero ul li::after {
-    content: " | ";
-}
-
-.hero ul li:last-child::after {
-    content: "";
-}
-
 .hero .fa-arrow-circle-down {
     font-size: 250%;
     padding-top: 50px;
@@ -124,13 +115,6 @@ a:hover {
 	min-height: 250px;
 	color: #ffffff;
 }
-.panel-footer nav ul li::after {
-    content: " | ";
-}
-
-.panel-footer nav ul li:last-child::after {
-    content: "";
-}
 .panel-footer ul {
     padding: 3% 0 0 0;
 }
@@ -144,3 +128,36 @@ a:hover {
 background-color: #00688B;
 border-color: #00688B;
 }
+.panel-footer nav ul li::after {
+    content: " | ";
+}
+.panel-footer nav ul li:last-child::after {
+    content: "";
+}
+@media only screen and (min-width: 850px) {
+    .hero ul li::after {
+        content: " | ";
+    }
+    
+    .hero ul li:last-child::after {
+        content: "";
+    }
+}
+@media only screen and (max-width: 480px) {
+    .container {
+        font-size: 95%;
+    }
+}
+@media only screen and (max-width: 850px) {
+.hero ul li {
+    display: block;
+}
+.hero ul {
+    padding-top: 30px;
+}
+}
+
+
+
+
+    
