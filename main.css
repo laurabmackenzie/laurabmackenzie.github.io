@@ -134,6 +134,9 @@ border-color: #00688B;
 .panel-footer nav ul li:last-child::after {
     content: "";
 }
+.modal img {
+    max-width: 100%;
+}
 @media only screen and (min-width: 850px) {
     .hero ul li::after {
         content: " | ";
